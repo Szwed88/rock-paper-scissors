@@ -25,7 +25,7 @@ function getHumanChoice(){
     let humanScore = 0;
     let computerScore = 0;
 
- //3 game logic//
+ //3 Game logic//
 
  function playRound(computerChoice, humanChoice){
 
@@ -51,16 +51,7 @@ function getHumanChoice(){
  // 4 scores//
 
 function playGame(){
-    for (let i = 0; i < 5; i++) {
-      /* ATTEMPTING RETURN RESULTS AND UNNECESSARY ALERT. GAME NOT WORKING!
-    
-    {
-            let humanChoice = getHumanChoice();
-            let computerChoice = getComputerChoice();
-            let roundResult = playRound(computerChoice, humanChoice);
-            alert(roundResult);
-        }  version below work fine :-) */   
-        
+    for (let i = 0; i < 5; i++) {     
         const humanChoice = getHumanChoice();
         const computerChoice = getComputerChoice();
         playRound(computerChoice, humanChoice);
