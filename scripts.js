@@ -1,7 +1,7 @@
 
 
 
-// 1 Computer choice//
+
 
 
 function getComputerChoice(){
@@ -11,7 +11,7 @@ function getComputerChoice(){
     console.log(getComputerChoice());
 
 
-// 2 User choice//
+
 
 
 function getHumanChoice(){
@@ -25,7 +25,7 @@ function getHumanChoice(){
     let humanScore = 0;
     let computerScore = 0;
 
- //3 Game logic//
+
 
  function playRound(computerChoice, humanChoice){
 
@@ -48,7 +48,7 @@ function getHumanChoice(){
         }
     }
 
- // 4 scores//
+ 
 
 function playGame(){
     for (let i = 0; i < 5; i++) {     
@@ -68,7 +68,7 @@ function playGame(){
     
     console.log(`Final Scores - You: ${humanScore} Computer: ${computerScore}.`);
 }
-//GAME ON //
+
  playGame();
 
         
